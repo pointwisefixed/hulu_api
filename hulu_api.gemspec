@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 	s.email				= "pwfixed@garyrosales.com"
 	s.homepage			= "http://"
 	s.description		= "A Hulu API port of the unofficial Hulu API PHP library"
-	s.add_dependency "curb", "~> 0.8.6"
-	s.add_dependency "simple-xml", ">= 1.0.0"
+	s.add_runtime_dependency 'curb', '~> 0.8', '>= 0.8.6'
+	s.add_runtime_dependency 'simple-xml', '~> 1.0', '>= 1.0.0'	
 end
 

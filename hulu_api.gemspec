@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-	s.name				= "Hulu API"
+	s.name				= "hulu-api"
 	s.version			= "1.0.0"
 	s.files				= "lib/hulu_api.rb"
 	s.license			= "MIT"

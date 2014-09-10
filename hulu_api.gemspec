@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 	s.name				= "hulu-api"
-	s.version			= "1.0.1"
-	s.files				= ["lib/hulu_api.rb", "lib/hulu_api/hulu_api.rb"]
+	s.version			= "1.0.2"
+	s.files				= Dir['Rakefile', '{lib, spec}/**/*', 'README*']  
 	s.license			= "MIT"
 	s.summary			= "A Hulu API port the unofficial Hulu API PHP"
 	s.authors			= ['Gary Rosales']
